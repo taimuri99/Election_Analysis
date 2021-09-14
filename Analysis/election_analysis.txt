@@ -3,4 +3,3 @@ Counties in the Election
 Arapahoe
 Denver
 Jefferson
-Push1
