@@ -104,8 +104,10 @@ This code after being run, results in the output text file as shown in the Chall
 ### Election Audit Summary
 The script designed for this challenge can work for any type of election.
 1) If there is a different csv file, the variable to load a file using the directory path can be changed to the different csv file and therefore it would load the different csv file with a different data set.
-Since the candidate options, candidate votes, county options and county votes are both lists and dictioanries which can be appended with any number of candidates, it will read and store the performance for different people as well. The only other change one could make is:
-2) If the candidate and county data are in different columns of a csv file and not in the ones for the csv file we used for this challenge , the follwoing code can be changed to accommodate:
+
+Since the candidate options, candidate votes, county options and county votes are both lists and dictionaries which can be appended with any number of candidates or counties, it will read and store the performance for different people and counties as well. The only other change one could make is:
+
+2) If the candidate and county data are in different columns of a csv file and not in the ones for the csv file we used for this challenge, the following code can be changed to accommodate:
 
         for row in reader:
           candidate_name = row[a]
